@@ -174,7 +174,9 @@ Heart Rate Estimation
 Add screenshot here:
 
 ```markdown
-![Face Detection](<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/7c72c3db-265a-4ff1-83b6-c4858227153b" />
+## Face Detection
+
+![Face Detection](screenshots/<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/722fd5c7-dd6e-4c4b-b839-babdd967bbb1" />
 )
 ```
 
