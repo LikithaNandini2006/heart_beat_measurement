@@ -176,7 +176,7 @@ Add screenshot here:
 ```markdown
 ## Face Detection
 
-![Face Detection](screenshots/<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/722fd5c7-dd6e-4c4b-b839-babdd967bbb1" />
+(screenshots/<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/722fd5c7-dd6e-4c4b-b839-babdd967bbb1" />
 )
 ```
 
