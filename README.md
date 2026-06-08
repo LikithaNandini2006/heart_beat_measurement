@@ -174,7 +174,7 @@ Heart Rate Estimation
 Add screenshot here:
 
 ```markdown
-![output](<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/7c72c3db-265a-4ff1-83b6-c4858227153b" />
+![screenshots](<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/7c72c3db-265a-4ff1-83b6-c4858227153b" />
 )
 ```
 
