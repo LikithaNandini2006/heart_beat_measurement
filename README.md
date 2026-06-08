@@ -1,217 +1,63 @@
-# ❤️ Heart Beat Measurement Using Pupil
+# Heart Beat Measurement Using Pupil
 
-## 📌 Project Overview
+Heart Beat Measurement Using Pupil is a real-time computer vision project that uses a webcam to detect the face and eye landmarks, count blinks, estimate heart-rate-related output, and show live graphs for blink signal and heart rate.
 
-Heart Beat Measurement Using Pupil is a Computer Vision and Machine Learning based project that detects a user's face and eyes in real time using a webcam. The system tracks eye movements and blink patterns while displaying heart rate-related information, blink count, frequency, and accuracy metrics on the screen.
+## Features
 
-The project combines OpenCV, MediaPipe, Scikit-Learn, CNN concepts, and signal processing techniques to create a real-time monitoring system.
+- Real-time face detection
+- Eye landmark tracking using MediaPipe
+- Blink count detection
+- Heart rate display
+- Frequency and confidence metrics
+- Live blink signal graph
+- Live heart rate graph
+- Simple desktop GUI using CustomTkinter
 
----
+## Output Screenshot
 
-## 🚀 Features
+![Heart Beat Measurement Output](screenshots/output.png)
 
-* Real-Time Face Detection
-* Eye Landmark Detection
-* Eye Blink Counting
-* Live Webcam Monitoring
-* Heart Rate Display
-* Frequency Calculation
-* Accuracy Display
-* Real-Time Face Bounding Box
-* Eye Tracking Visualization
-* Computer Vision Based Analysis
-* User-Friendly Interface
+## Technologies Used
 
----
+- Python
+- OpenCV
+- MediaPipe
+- CustomTkinter
+- Pillow
+- NumPy
 
-## 🛠️ Technologies Used
-
-### Programming Language
-
-* Python
-
-### Libraries & Frameworks
-
-* OpenCV
-* MediaPipe
-* NumPy
-* Scikit-Learn
-* TensorFlow / Keras
-* SciPy
-* Matplotlib
-
-### Machine Learning Algorithms
-
-* Convolutional Neural Network (CNN)
-* Random Forest (RF)
-* Fuzzy Logic
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
-heart_beat_measurement_using_pupil/
-│
-├── app.py
-├── requirements.txt
-│
-├── models/
-│   ├── cnn_model.py
-│   ├── rf_model.pkl
-│
-├── utils/
-│   ├── face_detector.py
-│   ├── blink_detector.py
-│   ├── heart_rate.py
-│   └── fuzzy_logic.py
-│
-├── screenshots/
-│   ├── output1.png
-│   ├── output2.png
-│
-└── README.md
+heart_beat_measurement/
+|-- app.py
+|-- detector.py
+|-- requirements.txt
+|-- screenshots/
+|   |-- output.png
+|-- README.md
 ```
 
----
-
-## ⚙️ Installation
-
-### Clone Repository
+## Installation
 
 ```bash
-git clone https://github.com/your-username/heart-beat-measurement-using-pupil.git
-
-cd heart-beat-measurement-using-pupil
-```
-
-### Create Virtual Environment
-
-```bash
+git clone https://github.com/LikithaNandini2006/heart_beat_measurement.git
+cd heart_beat_measurement
 python -m venv venv
-```
-
-### Activate Virtual Environment
-
-#### Windows
-
-```bash
 venv\Scripts\activate
-```
-
-#### Linux / Mac
-
-```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
-Or
-
-```bash
-pip install opencv-python mediapipe numpy scipy matplotlib scikit-learn tensorflow
-```
-
----
-
-## ▶️ Running the Project
+## Run The Project
 
 ```bash
 python app.py
 ```
 
-After execution:
+After running the project, click `START` to begin blink detection. The app will open the webcam, detect the face and eyes, update blink count, and show live output graphs.
 
-* Webcam will start automatically.
-* Face will be detected.
-* Eye landmarks will be displayed.
-* Blink count will be updated.
-* Heart rate and frequency information will be shown.
+## Author
 
----
-
-## 📊 Workflow
-
-```text
-Webcam Input
-      │
-      ▼
-Face Detection
-      │
-      ▼
-Eye Detection
-      │
-      ▼
-Blink Detection
-      │
-      ▼
-Signal Processing
-      │
-      ▼
-CNN Feature Extraction
-      │
-      ▼
-Random Forest Prediction
-      │
-      ▼
-Fuzzy Logic Optimization
-      │
-      ▼
-Heart Rate Estimation
-```
-
----
-
-## 📸 Output Screenshots
-
-### Face Detection
-
-Add screenshot here:
-
-```markdown
-## Face Detection
-
-(screenshots/<img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/722fd5c7-dd6e-4c4b-b839-babdd967bbb1" />
-)
-```
-
-
-
-## 🎯 Applications
-
-* Health Monitoring
-* Smart Surveillance Systems
-* Driver Drowsiness Detection
-* Human Computer Interaction
-* Computer Vision Research
-* Biomedical Signal Analysis
-
----
-
-## 🔮 Future Enhancements
-
-* Accurate Heart Rate Estimation using rPPG
-* Deep Learning Based Prediction
-* Mobile Application Integration
-* Cloud-Based Monitoring
-* Real-Time Data Storage
-* Patient Monitoring Dashboard
-
----
-
-## 👨‍💻 Author
-
-**Likitha Nandini**
+Likitha Nandini
 
 GitHub: https://github.com/LikithaNandini2006
-
----
-
-## 📄 License
-
-This project is developed for educational and research purposes.
